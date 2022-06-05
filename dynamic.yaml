@@ -4,6 +4,18 @@ matching.numTaskqueueReadPartitions:
 matching.numTaskqueueWritePartitions:
 - value: 20
   constraints: {}
+matching.rps:
+- value: 5000
+  constraints: {}
 history.acquireShardConcurrency:
 - constaints: {}
   value: 140
+history.cacheMaxSize:
+- constaints: {}
+  value: 10000
+history.cacheInitialSize:
+- constaints: {}
+  value: 1000
+history.rps:
+- constaints: {}
+  value: 5000
