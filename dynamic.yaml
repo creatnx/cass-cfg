@@ -19,3 +19,6 @@ history.cacheInitialSize:
 history.rps:
 - constaints: {}
   value: 5000
+history.persistenceMaxQPS:
+- constaints: {}
+  value: 50000
