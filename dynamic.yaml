@@ -22,3 +22,6 @@ history.rps:
 history.persistenceMaxQPS:
 - constaints: {}
   value: 50000
+frontend.rps:
+- constaints: {}
+  value: 10000
