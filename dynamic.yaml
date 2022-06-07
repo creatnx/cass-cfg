@@ -9,7 +9,7 @@ matching.rps:
   constraints: {}
 history.acquireShardConcurrency:
 - constaints: {}
-  value: 140
+  value: 512
 history.cacheMaxSize:
 - constaints: {}
   value: 10000
