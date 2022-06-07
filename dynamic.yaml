@@ -25,3 +25,21 @@ history.persistenceMaxQPS:
 frontend.rps:
 - constaints: {}
   value: 10000
+history.timerTaskWorkerCount:
+- constaints: {}
+  value: 1
+history.timerTaskMaxRetryCount:
+- constaints: {}
+  value: 1
+history.timerProcessorMaxPollRPS:
+- constaints: {}
+  value: 1
+history.transferProcessorMaxPollRPS:
+- constaints: {}
+  value: 1
+history.transferTaskWorkerCount:
+- constaints: {}
+  value: 1
+history.transferTaskMaxRetryCount:
+- constaints: {}
+  value: 1
