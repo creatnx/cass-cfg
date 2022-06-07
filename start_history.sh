@@ -1,3 +1,3 @@
-node_host=$(hostname -I | awk '{print $1}') envsubst < ./cass-cfg/docker.yaml > ./cass-cfg/config.yaml
+node_host=$(hostname -I | awk '{print $1}') envsubst < ./docker.yaml > ./config.yaml
 touch out.log
-./temporal-server --env=config --config=./cass-cfg start --service=history > out.log &
+./server --env=config --config=.. start --service=history > out.log &
