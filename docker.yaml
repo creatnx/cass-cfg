@@ -1,6 +1,6 @@
 log:
-    stdout: false
-    level: debug,info
+    stdout: true
+    level: info
     outputFile: ./out.log
 
 persistence:
