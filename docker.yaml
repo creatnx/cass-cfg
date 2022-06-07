@@ -27,14 +27,6 @@ persistence:
                     serverName:
         visibility:
             cassandra:
-
-
-
-
-
-
-
-
                 hosts: 10.0.0.3
                 keyspace: temporal_visibility
                 user: cassandra
@@ -110,25 +102,25 @@ services:
         rpc:
             grpcPort: 7233
             membershipPort: 6933
-            bindOnIP: 10.0.3.3
+            bindOnIP: ${node_host}
 
     matching:
         rpc:
             grpcPort: 7235
             membershipPort: 6935
-            bindOnIP: 10.0.3.3
+            bindOnIP: ${node_host}
 
     history:
         rpc:
             grpcPort: 7234
             membershipPort: 6934
-            bindOnIP: 10.0.3.3
+            bindOnIP: ${node_host}
 
     worker:
         rpc:
             grpcPort: 7239
             membershipPort: 6939
-            bindOnIP: 10.0.3.3
+            bindOnIP: ${node_host}
 
 clusterMetadata:
     enableGlobalNamespace: false
@@ -148,31 +140,19 @@ dcRedirectionPolicy:
 
 archival:
   history:
-    state: enabled
-    enableRead: true
-    provider:
-      filestore:
-        fileMode: 0666
-        dirMode: 0766
+    state: disabled
   visibility:
-    state: enabled
-    enableRead: true
-    provider:
-      filestore:
-        fileMode: 0666
-        dirMode: 0766
+    state: disabled
 
 namespaceDefaults:
   archival:
     history:
       state: disabled
-      URI: file:///tmp/temporal_archival/development
     visibility:
       state: disabled
-      URI: file:///tmp/temporal_vis_archival/development
 
 publicClient:
-    hostPort: 10.0.3.3:7233
+    hostPort: ${node_host}:7233
 
 dynamicConfigClient:
     filepath: /home/hoangdai.pham/cass-cfg/dynamic.yaml
