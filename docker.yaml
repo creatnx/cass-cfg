@@ -1,9 +1,9 @@
 log:
-    stdout: true
+    stdout: false
     level: info
 
 persistence:
-    numHistoryShards: 16
+    numHistoryShards: 2048
     defaultStore: default
     visibilityStore: visibility
     datastores:
