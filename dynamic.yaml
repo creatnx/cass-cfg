@@ -52,9 +52,6 @@ history.transferTaskWorkerCount:
 history.transferTaskMaxRetryCount:
 - constaints: {}
   value: 1
-history.visibilityProcessorMaxPollRPS:
-- constaints: {}
-  value: 1
 matching.forwarderMaxOutstandingPolls:
 - constaints: {}
   value: 0
