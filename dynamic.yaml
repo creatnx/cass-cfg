@@ -1,8 +1,8 @@
 matching.numTaskqueueReadPartitions:
-- value: 64
+- value: 20
   constraints: {}
 matching.numTaskqueueWritePartitions:
-- value: 64
+- value: 20
   constraints: {}
 matching.rps:
 - value: 20000
