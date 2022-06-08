@@ -67,3 +67,6 @@ matching.forwarderMaxRatePerSecond:
 matching.forwarderMaxChildrenPerNode:
 - constaints: {}
   value: 0
+matching.persistenceMaxQPS:
+- constaints: {}
+  value: 30000
