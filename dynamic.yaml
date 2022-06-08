@@ -43,3 +43,6 @@ history.transferTaskWorkerCount:
 history.transferTaskMaxRetryCount:
 - constaints: {}
   value: 1
+VisibilityProcessorMaxPollRPS:
+- constaints: {}
+  value: 1
