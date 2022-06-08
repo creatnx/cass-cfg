@@ -46,3 +46,15 @@ history.transferTaskMaxRetryCount:
 history.visibilityProcessorMaxPollRPS:
 - constaints: {}
   value: 1
+matching.forwarderMaxOutstandingPolls:
+- constaints: {}
+  value: 0
+matching.forwarderMaxOutstandingTasks:
+- constaints: {}
+  value: 0
+matching.forwarderMaxRatePerSecond:
+- constaints: {}
+  value: 0
+matching.forwarderMaxChildrenPerNode:
+- constaints: {}
+  value: 0
