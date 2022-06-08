@@ -76,3 +76,6 @@ history.visibilityTaskWorkerCount:
 history.visibilityTaskMaxRetryCount:
 - constaints: {}
   value: 1
+history.throttledLogRPS:
+- constaints: {}
+  value: 10
