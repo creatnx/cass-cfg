@@ -12,10 +12,10 @@ history.acquireShardConcurrency:
   value: 3024
 history.cacheMaxSize:
 - constaints: {}
-  value: 10000
+  value: 50000
 history.cacheInitialSize:
 - constaints: {}
-  value: 3024
+  value: 25000
 history.rps:
 - constaints: {}
   value: 5000
