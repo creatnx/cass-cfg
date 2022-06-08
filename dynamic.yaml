@@ -70,3 +70,12 @@ matching.forwarderMaxChildrenPerNode:
 matching.persistenceMaxQPS:
 - constaints: {}
   value: 30000
+history.visibilityProcessorMaxPollRPS:
+- constaints: {}
+  value: 1
+history.visibilityTaskWorkerCount:
+- constaints: {}
+  value: 1
+history.visibilityTaskMaxRetryCount:
+- constaints: {}
+  value: 1
