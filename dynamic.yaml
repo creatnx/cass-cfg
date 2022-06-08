@@ -5,7 +5,7 @@ matching.numTaskqueueWritePartitions:
 - value: 20
   constraints: {}
 matching.rps:
-- value: 5000
+- value: 20000
   constraints: {}
 history.acquireShardConcurrency:
 - constaints: {}
