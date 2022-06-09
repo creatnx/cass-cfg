@@ -15,10 +15,10 @@ history.acquireShardInterval:
   value: 10m
 history.cacheMaxSize:
 - constaints: {}
-  value: 50000
+  value: 1000
 history.cacheInitialSize:
 - constaints: {}
-  value: 10000
+  value: 100
 history.cacheTTL:
 - constaints: {}
   value: 5s
