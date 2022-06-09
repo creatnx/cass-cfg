@@ -15,10 +15,10 @@ history.cacheMaxSize:
   value: 50000
 history.cacheInitialSize:
 - constaints: {}
-  value: 25000
+  value: 10000
 history.cacheTTL:
 - constaints: {}
-  value: 10s
+  value: 5s
 history.rps:
 - constaints: {}
   value: 5000
