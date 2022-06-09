@@ -24,7 +24,7 @@ history.cacheTTL:
   value: 5s
 history.rps:
 - constaints: {}
-  value: 5000
+  value: 10000
 history.persistenceMaxQPS:
 - constaints: {}
   value: 30000
