@@ -42,7 +42,7 @@ frontend.namespaceCount:
   value: 10000
 history.timerTaskWorkerCount:
 - constaints: {}
-  value: 1
+  value: 10
 history.timerTaskMaxRetryCount:
 - constaints: {}
   value: 1
@@ -54,7 +54,7 @@ history.transferProcessorMaxPollRPS:
   value: 1
 history.transferTaskWorkerCount:
 - constaints: {}
-  value: 1
+  value: 10
 history.transferTaskMaxRetryCount:
 - constaints: {}
   value: 1
