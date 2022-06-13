@@ -48,10 +48,10 @@ history.timerTaskMaxRetryCount:
   value: 1
 history.timerProcessorMaxPollRPS:
 - constaints: {}
-  value: 1
+  value: 1000
 history.transferProcessorMaxPollRPS:
 - constaints: {}
-  value: 1
+  value: 1000
 history.transferTaskWorkerCount:
 - constaints: {}
   value: 10
